@@ -1,0 +1,81 @@
+                           Marketing Performance Insights Tools
+
+       A centralized internal dashboard designed to simplify marketings performance 
+reporting across multiple platforms.
+
+## Problem Statement
+   The marketing team currently collects campaign data manually from multiple platforms such as google Ads and Facebook Ads.
+   this process is slow,inconsistent,and depends heavily on individual analysts.
+   Different team members may generate different reports,making decision-making difficult.Clients also wait longer for updates.
+
+## Proposed Solution
+   I Propose a centralized dashboadr that combines marketing data from multiple platforms into one place.
+   The tool will allow users to:
+     1.Viewcampaign performance
+     2.Compare channels
+     3.Identify top-performing campaigns
+     4.Download reports quickly
+
+## Target Users
+   Primary Users:
+      -Marketing Analysts
+      -Marketing Managers
+      -Clients
+
+## Version1 Features
+   -Dashboard showing campaign performance
+   -Channel-wise comparsion
+   -Weekly performance trends 
+   -Download able summary reports
+   -Date range filtering
+
+## Features Not Included in v1
+   The following features are intentionally excluded from the first version:
+     -AI recommendations
+     -Predictive analytics
+     -Real-Time notification
+     -Chatbot assistant
+  These features can be added later after validating the core product.
+
+## User Flow
+   1.User logs into the dashboard
+   2.User selects campaign and date range
+   3.Tool fetches data from connected platforms
+   4.Dashboard displays insights and trends
+   5.User downloads the report
+
+## Possible Data Sources
+   -Google Ads
+   -Facebook Ads
+   -Website analytics tools
+   -CSV uploads
+
+## Benefits
+   -Saves analyst time
+   -Reduces manual work
+   -Improves reporting consistency
+   -Helps teams make faster decisions
+
+## Future Improvements
+   -AI-based recommendations
+   -Automated alerts
+   -Predictive performance analysis
+   -Slack or Email notification
+
+## Success Metrics 
+   The success of this tool can be measured using:
+    -Reduced report preparation time
+    -Increased reporting consistency
+    -Faster decision-making by marketing teams
+
+## Assumption
+   This solution assumes:
+     -Existing marketing platforms alreadt provide exportable data or APIs
+     -Users are familiar with basic dashboard usage
+     -Historical campaign data is available for analysis
+
+## Why This Scope for V1
+    The first version focuses on solving the most common reporting problems with minimal complexity.
+    Instead of building advanced AI capabilities immediately, the goal is to create a reliable and esay-to-use
+reporting experience first.This approach reduces development risk and allows the team to gather user feedback before
+expanding the product.
